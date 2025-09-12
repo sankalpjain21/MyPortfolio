@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/HeroImage.jpg" alt="Sankalp Jain" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sankalp Jain">Sankalp Jain</h1>
+
+          <p class="title">Python Developer | Frontend Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="sankalp.sj321@gmail.com" class="contact-link">sankalp.sj321@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91-9045077179" class="contact-link">+91-9045077179</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/sankalp-jain-5b0b772b9/" class="contact-link" target="_blank">https://www.linkedin.com/in/sankalp-jain-5b0b772b9/</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+              <a href="https://github.com/sankalpjain21" class="contact-link" target="_blank">github.com/sankalpjain21</a>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            ► Hi there! I'm Sankalp Jain, Known for adaptability, quick learning, attention to detail, and the ability to work both independently and within a team..
+            </p>
+
+            <p>
+            ► Strong foundation in Python, with hands-on experience using Tkinter and Kivy for GUI-based applications, and Flask for backend development.
+            </p>
+            <p>
+            ► Familiar with HTML, CSS, and JavaScript, enabling me to design and implement responsive, user-friendly interfaces.
+            </p> <p>
+            ► Aspiring to build a career in Data Science, combining technical expertise with analytical thinking to deliver data-driven insights.
+            </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Tools & Technologies I Work With</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/python-5.svg" alt="Python" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python</h4>
+                <p class="service-item-text">
+                  Used for backend development, automation, data handling, and building projects like a virtual banking system.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/python-package.svg" alt="python Library" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Library</h4>
+                <p class="service-item-text">
+                  Worked with NumPy, Pandas, and Matplotlib for data analysis and visualization.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/Kivy.svg" alt="Kivy icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Kivy GUI</h4>
+                <p class="service-item-text">
+                  Used for developing cross-platform mobile applications; created a Library Seat Booking App with it.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/flask.svg" alt="Framework" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Flask Framework</h4>
+                <p class="service-item-text">
+                  Used for building web applications and backend APIs with Python.
+                </p>
+              </div>
+            </li>
+
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/javascript-2.svg" alt="JavaScript" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Web development</h4>
+                <p class="service-item-text">
+                  Worked with HTML, CSS, and JavaScript to design responsive web pages and create user-friendly interfaces.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-mysql.svg" alt="MySQL icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">MySQL</h4>
+                <p class="service-item-text">
+                  Proficient in Data types, Queries, Joins, Aggregate Functions, and Window Functions.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+    
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Sankalp Portfolio</h4>
+
+              <time datetime="2024-12-21">12 Dec, 2024</time>
+
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Teerthanker Mahaveer University, Moradabad</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">
+                B.Tech in Computer Science with a specialization Artificial Intelligence
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dayalbagh Educational Institute, Agra</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Vocational Diploma in Automobile Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Th. Biri Singh Inter College, Tundla</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                Intermediate in Science Stream
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lord Rishabh High School, Tundla</h4>
+
+              <span>2017</span>
+
+              <p class="timeline-text">
+                High School
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SofTechno</h4>
+
+              <span>Python intern</span>
+
+              <p class="timeline-text">
+                Learned and applied core Python programming concepts (OOPs, file handling, exception handling) through real-world tasks.
+
+                Built projects that involved multiple Python libraries (NumPy, Pandas, Matplotlib, Flask) and strengthened practical knowledge.
+
+                Worked on backend development, automation, and API integration, gaining hands-on experience in problem-solving.
+
+                Enhanced coding skills by writing clean, optimized, and maintainable code under the guidance of industry professionals.
+
+                Strengthened understanding of software development workflows, teamwork, and debugging practices.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Libraries</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">GUI</h5>
+                <data value="90">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Flask</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend Web development(HTML, CSS, JavaScript)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+         
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+              
+
+            </button>
+
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Tkinter">
+              <a href="https://github.com/sankalpjain21/YourMoney_Bank" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Picture1.png" alt="banking" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">YourMoney Bank</h3>
+
+                <p class="project-category">Python | Tkinter</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="kivy">
+              <a href="https://github.com/sankalpjain21/Library_Seat_Booking_Mobile_Application" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/libraty_seat.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 align="Center" class="project-title">Libary Seat Booking Mobile Applications</h3>
+
+                <p align="Center" class="project-category">Python | Kivy | Firebase</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web Currency-Converter">
+              <a href="https://github.com/sankalpjain21/Currency-Converter" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/#" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Currency Converter</h3>
+
+                <p class="project-category"> HTML | CSS | JavaScript | API </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/#" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Four Game</h3>
+
+                <p class="project-category">Python | AI</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+           <!--
+        - #CONTACT
+      -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact Me</h2>
+        </header>
+
+        <form action="https://formspree.io/f/mvgbyanp" method="POST" class="form">
+          <div class="input-wrapper">
+            <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+            <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            <input type="text" name="subject" class="form-input" placeholder="Subject" required>
+          </div>
+
+          <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+          <button class="form-btn" type="submit">
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+          </button>
+        </form>
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
