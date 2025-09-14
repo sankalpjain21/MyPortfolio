@@ -766,6 +766,23 @@ main {
 
 .article-title { margin-bottom: 30px; }
 
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: hsla(45, 100%, 71%, 0.748);
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: hsl(45, 58%, 37%);
+}
+
+
+
 
 /**
  * education and experience 
